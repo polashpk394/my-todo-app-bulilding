@@ -1,0 +1,107 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    /* display: flex; */
+}
+
+body{
+    background: rgb(7, 204, 211);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+}
+
+.todoBox{
+    background: white;
+    width: 600px;
+    
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    
+}
+.heading h1 {
+    text-align: center;
+}
+
+
+.from {
+    padding: 15px 0px;
+}
+
+.from form {
+    display: flex;
+    justify-content: space-between;
+    height: 50px;
+    box-sizing: border-box;
+    border: 1px solid black;
+}
+
+
+
+input#inputBox {
+    width: 100%;
+    padding: 10px;
+    border: none;
+    outline: none;
+}
+
+input#btn {
+    width: 62px;
+    padding: 0px 15px;
+    border: none;
+    background: red;
+    cursor: pointer;
+}
+
+.Wrapper {
+    padding: 30px;
+    width: 100%;
+}
+
+.todoListWrapper {
+    background: #ddd;
+    padding: 10px;
+}
+
+ul.addTodoList {
+    list-style: none;
+}
+
+ul.addTodoList li {
+    border-bottom: 1px solid #eee;
+    padding: 5px;
+}
+
+ul.addTodoList li:last-child {
+    border: none;
+}
+
+ul.addTodoList li {
+    display: flex;
+    justify-content: space-between;
+}
+
+ul.addTodoList li button {
+    background: red;
+    border: none;
+    padding: 5px 15px;
+    color: white;
+    border-radius: 3px;
+    cursor: pointer;
+}
+
+ul.addTodoList li {
+    display: flex;
+    align-items: center;
+}
+
+.tosoListing{
+    display: flex;
+    justify-content: space-between;
+    gap: 2px;
+    height: 35px;
+    margin-left: 20px;
+}
